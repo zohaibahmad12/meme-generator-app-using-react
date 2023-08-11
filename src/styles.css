@@ -5,6 +5,8 @@ body {
     padding: 0;
 }
 
+
+/* Home Page CSS */
 .main-heading {
     background-color: #333;
     padding: 5px;
@@ -100,4 +102,46 @@ body {
         font-size: 1.6vw;
         height: 5vw;
     }
+}
+
+
+
+
+/* Meme Editor Page CSS */
+
+.meme-editor{
+    width: 30%;
+    border: 2px solid black;
+    margin: 30px auto;
+}
+.empty-area{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+   
+}
+.meme-img{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.meme-img img{
+    width: 100%;
+    height: 250px;
+  
+}
+
+.buttons{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 40%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
