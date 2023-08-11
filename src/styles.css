@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eceef1;
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading {
+    background-color: #333;
+    padding: 5px;
+}
+
+.main-heading h1 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   
+}
+
+
+.main-heading h1:hover {
+    animation: heartbeat 1s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+
+.all-memes {
+    padding: 1vw;
+
+}
+
+.all-memes:after {
+    content: " ";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.meme-card {
+    float: left;
+    width: 10%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.meme-card:hover {
+    transform: translateY(-10px);
+}
+
+.meme-card img {
+    width: 100%;
+    height: 9vw;
+    object-fit: fill;
+
+}
+
+.meme-card p {
+    text-align: center;
+    color: gray;
+    margin: 5px 0px;
+    font-size: 1vw;
+    height: 3.5vw;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .main-heading h1{
+        font-size: 6vw  ;
+    }
+     .meme-card{
+        width: 22%;
+    }
+     
+    .meme-card img{
+        height: 16vw;
+    }
+   
+    .meme-card p{
+        font-size: 1.6vw;
+        height: 5vw;
+    }
+}
