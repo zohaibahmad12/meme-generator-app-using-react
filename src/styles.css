@@ -112,7 +112,7 @@ body {
 .meme-editor{
     width: 30%;
     border: 2px solid black;
-    margin: 30px auto;
+    margin: 15px auto;
 }
 .empty-area{
     width: 100%;
@@ -145,3 +145,22 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.meme-text{
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+
+
+.meme-text input{
+    padding: 15px;
+    outline: none;
+    border: 1.5px solid gray;
+    color: gray;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
