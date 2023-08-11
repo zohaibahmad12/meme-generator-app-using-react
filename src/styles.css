@@ -111,6 +111,7 @@ body {
 .download-div{
     width: 30%;
     margin: 15px auto;
+    position: relative;
 }
 .meme-editor{
     width: 100%;
@@ -151,11 +152,14 @@ body {
 .meme-text{
     cursor: pointer;
     position: absolute;
-    top: 400px;
-    right: 550px;
+    bottom: 10px;
+    left: 10px;
+  
 }
 
-
+.meme-text p{
+    font-size: 14px;
+}
 .meme-text input{
     padding: 15px;
     outline: none;
@@ -167,3 +171,26 @@ body {
 }
 
 
+.navlink{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 968px) {
+
+    .download-div,.buttons{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .download-div,.buttons{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+
+    .download-div,.buttons{
+        width: 70%;
+    }
+}
