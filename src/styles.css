@@ -108,11 +108,13 @@ body {
 
 
 /* Meme Editor Page CSS */
-
-.meme-editor{
+.download-div{
     width: 30%;
-    border: 2px solid black;
     margin: 15px auto;
+}
+.meme-editor{
+    width: 100%;
+    border: 2px solid black;
 }
 .empty-area{
     width: 100%;
@@ -149,8 +151,8 @@ body {
 .meme-text{
     cursor: pointer;
     position: absolute;
-    top: 200px;
-    right: 250px;
+    top: 400px;
+    right: 550px;
 }
 
 
@@ -163,4 +165,5 @@ body {
     width: 200px;
 
 }
+
 
