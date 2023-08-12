@@ -21,7 +21,7 @@ const MemeText = () => {
                 {
                     (isEditable) ? 
                     <>
-                    <input placeholder="Add Text..." onDoubleClick={handleMemeTextToggle} type="text" value={input} onChange={handleInputChange} />
+                    <input autoFocus placeholder="Add Text..." onDoubleClick={handleMemeTextToggle} type="text" value={input} onChange={handleInputChange} />
                     <button onClick={handleMemeTextToggle} onTouchStart={handleMemeTextToggle}>Save</button>
                     <div className="drag-div"></div>
                     </>
